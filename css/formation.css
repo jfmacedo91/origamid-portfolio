@@ -103,7 +103,7 @@
   color: var(--color-gray01);
 }
 
-@media (max-width: 640px) {
+@media (max-width: 900px) {
   .formation {
     gap: 2.5rem;
     grid-template-columns: 1fr;
