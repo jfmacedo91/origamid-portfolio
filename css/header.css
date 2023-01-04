@@ -20,6 +20,7 @@
   padding: 1rem;
   font-size: 1.125rem;
   text-decoration: none;
+  color: var(--color-gray11);
 }
 
 @media (max-width: 800px) {

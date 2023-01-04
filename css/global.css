@@ -19,10 +19,10 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Source Sans Pro", sans-serif;
-  color: var(--color-gray11);
 }
 
 body {
+  color: var(--color-gray11);
   background-color: var(--color-gray01);
 }
 
@@ -33,4 +33,20 @@ ul {
 img {
   max-width: 100%;
   display: block;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  align-items: center;
+  gap: 8.75rem;
+  max-width: 73.125rem;
+  margin: 0 auto;
+  padding: 7.5rem 1.25rem;
+}
+
+@media (max-width: 1000px) {
+  .container {
+    padding: 1.5rem 1.25rem;
+  }
 }
